@@ -1,0 +1,49 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 2px aqua solid;
+  padding: 6px;
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.tHead{
+  color: rgb(21, 255, 0);
+  font-size: 18px;
+}
+
+.factHeader {
+  font-size: "20px";
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.idRow {
+  width: 10%;
+}
+
+.factRow {
+  width: 80%;
+  text-align: start;
+}
+
+.factLength {
+  width: 10%;
+}
+.loading{
+  font-size: 15px;
+  color: aqua;
+}
